@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/aboute', function(){
-    return view('aboute');
+Route::get('/about', function(){
+    return view('about');
 });
